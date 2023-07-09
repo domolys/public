@@ -15,7 +15,7 @@
 2. **[Équipement](#équipement)**
 3. **[Réseau domotique](#réseau-domotique)**
 4. **[Dell Wyse 7020](https://github.com/domolys/public/blob/main/WYSE-7020.md)**: spécifications
-5. **[Wiki](https://github.com/domolys/public/wiki)**
+5. **[Wiki](https://github.com/domolys/public/wiki)**: installations
 
 <br/>
 
