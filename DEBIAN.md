@@ -1,3 +1,5 @@
+delete
+
 <h3>Préparer un média d'installation à partir de l'image Debian</h3>
 <p>debian-live-10.8.0-amd64-standard+nonfree.iso (testé)</p>
 <p>debian-live-10.9.0-amd64-standard+nonfree.iso</p>
