@@ -14,8 +14,8 @@
 1. **[Introduction](#introduction)**
 2. **[Équipement](#équipement)**
 3. **[Réseau domotique](#réseau-domotique)**
-4. **[Dell Wyse 7020](https://github.com/logicup-connected/home-assistant/blob/main/WYSE-7020.md)**: spécifications
-5. **[Debian Buster 10.0](https://github.com/logicup-connected/home-assistant/blob/main/DEBIAN.md)**: installation
+4. **[Dell Wyse 7020](https://github.com/domolys/public/blob/main/WYSE-7020.md)**: spécifications
+5. **[Wiki](https://github.com/domolys/public/wiki)**
 
 <br/>
 
