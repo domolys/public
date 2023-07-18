@@ -1,0 +1,23 @@
+﻿#!/bin/bash
+
+# Minimize all open windows except some --class
+
+active_window_id=$(xdotool getactivewindow)
+tilda_window_id=$(xdotool search --onlyvisible --class "tilda")
+conky_window_id=$(xdotool search --onlyvisible --class "conky")
+desktop_window_id=$(xdotool search --class "gjs")
+
+keep_window_id=$tilda_window_id,$conky_window_id,$desktop_window_id
+
+list_window_id=$(xdotool search --onlyvisible --class ".*")
+
+#VAR_NOT=$(comm -23 <(tr ',' '\n' <<<"$keep_window_id" | sort) <(tr ',' '\n' <<<"$list_window_id" | sort) | paste -d' ' -s)
+VAR=$(comm -13 <(tr ',' '\n' <<<"$keep_window_id" | sort) <(tr ',' '\n' <<<"$list_window_id" | sort) | paste -d' ' -s)
+
+for window_id in $VAR
+do
+#    if [ $window_id != $active_window_id ]
+#    then
+        xdotool windowminimize $window_id
+#    fi
+done
